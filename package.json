@@ -1,0 +1,33 @@
+{
+  "name": "categories",
+  "version": "1.0.0",
+  "description": "Mongodb API for categories and products",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "start-dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithya-bhat-b/Category.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "mongodb",
+    "express"
+  ],
+  "author": "Adithya Bhat B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithya-bhat-b/Category/issues"
+  },
+  "homepage": "https://github.com/adithya-bhat-b/Category#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
