@@ -3,7 +3,7 @@
 
 ## How ro run the server
 
-1. Install the mongodb from (here) [https://docs.mongodb.com/manual/installation/] 
+1. Install the mongodb from [here](https://docs.mongodb.com/manual/installation/) 
 2. Change the mongodb url and port in `config.js`.
 3. Run the commands
 ```
@@ -14,8 +14,10 @@ npm run start
 ## APIs for categories and products
 
 ### Add a category
-**URL**: ***http://{IP}:{PORT}/api/v1/category/add***
-**TYPE**: ***POST***
+**URL**: *http://{IP}:{PORT}/api/v1/category/add*
+
+**TYPE**: *POST*
+
 **Request body**
 ```
 {
@@ -40,8 +42,10 @@ npm run start
 
 ### Get all categories with child categories
 
-**URL**: ***http://{IP}:{PORT}/api/v1/category/get-all***
-**TYPE**: ***GET***
+**URL**: *http://{IP}:{PORT}/api/v1/category/get-all*
+
+**TYPE**: *GET*
+
 **Response body**: 
 ```
 {
@@ -67,8 +71,10 @@ npm run start
 
 ### Add products for categories
 
-**URL**: ***http://{IP}:{PORT}/api/v1/product/add-to-categories***
-**TYPE**: ***PUT***
+**URL**: *http://{IP}:{PORT}/api/v1/product/add-to-categories*
+
+**TYPE**: *PUT*
+
 **Request body**: 
 ```
 {
@@ -109,9 +115,12 @@ npm run start
 
 ### Get all products for category
 
-**URL**: ***http://{IP}:{PORT}/api/v1/product/get-by-category/:categoryId***
-**TYPE**: ***GET***
-**Request URL**: ***http://localhost:3000/api/v1/product/get-by-category/5f324464cea7fb318c13b80a***
+**URL**: *http://{IP}:{PORT}/api/v1/product/get-by-category/:categoryId*
+
+**TYPE**: *GET*
+
+**Request URL**: *http://localhost:3000/api/v1/product/get-by-category/5f324464cea7fb318c13b80a*
+
 **Response body**: 
 ```
 {
@@ -139,8 +148,10 @@ npm run start
 
 ### Update a product
 
-**URL**: ***http://{IP}:{PORT}/api/v1/product/update***
-**TYPE**: ***PATCH***
+**URL**: *http://{IP}:{PORT}/api/v1/product/update*
+
+**TYPE**: *PATCH*
+
 **Request body**: 
 ```
 {
@@ -150,6 +161,7 @@ npm run start
     "brand": "Apple"
 }
 ```
+
 ***Response body**:
 ```
 {
